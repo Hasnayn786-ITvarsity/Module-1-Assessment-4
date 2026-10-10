@@ -1,0 +1,95 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    margin-top: 0;
+    background: black;
+    padding: 12px;
+    display: flex;
+    gap: 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.menu a:hover{
+    background: #00e5ff;
+    color: black;
+    border-radius: 5px;
+}
+.gallery{
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.gallery img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border: 1px solid grey;
+    background: white;
+}
+
+.headset img{
+  width:150px;
+  display:block;
+  margin:10px;
+  border:1px solid grey;
+}
+
+.product{ 
+    text-align: center;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.product img{
+    width: 100%;
+}
+.product h3{
+    flex-grow: 1;
+    min-height: 60px;
+    height: 85px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+.price{
+  margin-top: 10px;
+  color:green;
+  font-weight:bold;
+     font-size:22px;
+}
+
+h4{
+    margin-top: 20px;
+}
+
+.stock{
+  color:green;
+}
+
+table, th, td{
+  border:1px solid black;
+  border-collapse:collapse;
+  padding:8px;
+}
+
+.buy-btn{
+  background:blue;
+  color:white;
+  padding:10px;
+  text-decoration:none;
+  display:block;
+  width:200px;
+  text-align:center;
+  margin-top:10px;
+}

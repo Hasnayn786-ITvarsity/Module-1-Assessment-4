@@ -1,0 +1,129 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: black;
+    padding: 12px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 0;
+    margin-top: 0;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.menu a:hover{
+    background: #00e5ff;
+    color: black;
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    gap: 20px;
+}
+.left{
+    display: flex;
+    gap: 10px;
+}
+.thumbs img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+    background: #eee;
+}
+.thumbs img:hover{
+    border: 2px solid orange;
+}
+.big img{
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    background: #eee;
+    display: block;
+}
+.right{
+    flex: 1;
+}
+.price{
+    font-size: 22px;
+    font-weight: bold;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+.buy-btn{
+    background: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-top: 15px;
+}
+body{
+    font-family: Arial;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    gap: 20px;
+}
+.left{
+    display: flex;
+    gap: 10px;
+}
+.thumbs img{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    cursor: pointer;
+    background: white;
+    object-fit: contain;
+}
+.thumbs img:hover{
+    border: 2px solid orange;
+}
+.big img{
+    width: 300px;
+    height: auto;
+    border: 1px solid grey;
+    background: white;
+    display: block;
+    object-fit: contain;
+}
+.right{
+    flex: 1;
+}
+.price{
+    font-size: 22px;
+    font-weight: bold;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+.buy-btn{
+    background: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-top: 15px;
+}
